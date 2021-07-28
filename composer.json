@@ -18,9 +18,9 @@
     "require": {
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
-        "drupal-composer/drupal-scaffold": "^2.5",
+        "drupal/core-composer-scaffold":"^8.9",
+        "drupal/core-recommended":"^8.9",
         "drupal/console": "^1.0.2",
-        "drupal/core": "^8.8@beta",
         "drupal/ctools": "^3.0",
         "drupal/google_analytics": "^2.3",
         "drupal/markdown": "^1.2",
@@ -30,10 +30,6 @@
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
-    },
-    "require-dev": {
-        "drupal/core-dev": "^8.8@beta",
-        "symfony/debug": "^3.4"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -79,6 +75,9 @@
             "initial": {
                 ".editorconfig": "../.editorconfig",
                 ".gitattributes": "../.gitattributes"
+            },
+            "locations": {
+                "web-root": "web/"
             }
         }
     }
