@@ -19,8 +19,9 @@
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "drupal/console": "^1.0.2",
-        "drupal/core-composer-scaffold": "^8.9",
-        "drupal/core-recommended": "^8.9",
+        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-project-message": "^9",
+        "drupal/core-recommended": "^9",
         "drupal/ctools": "^3.0",
         "drupal/google_analytics": "^3.1",
         "drupal/markdown": "^3.0@RC",
@@ -81,5 +82,8 @@
                 "web-root": "web/"
             }
         }
+    },
+    "require-dev": {
+        "drupal/core-dev": "^9"
     }
 }
